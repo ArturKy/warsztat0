@@ -1,0 +1,118 @@
+body {
+    font-family: "Adobe Caslon Pro";
+}
+a {
+    text-decoration: none;
+}
+p a {
+    text-decoration: none;
+    text-decoration: solid;
+}
+a:hover {
+    color: springgreen;
+    text-decoration: underline;
+}
+.menubar {
+    font-family: sans-serif;
+    display: block;
+    background-color: blue;
+    height: 50px;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.menubar ul {
+    list-style: none;
+    padding-top: 18px;
+}
+.menubar ul li a {
+    text-decoration: none;
+    color: white;
+    display: inline;
+}
+.menubar li {
+    display: inline;
+    margin: auto auto auto 30px;
+
+}
+.jumbotron p {
+    font-size: 1.3em;
+}
+h1, h3 {
+    text-align: center;
+}
+.facjata {
+    width: 550px;
+    border-radius: 100px;
+    float: right;
+}
+.pf {
+    display: inline;
+    width: 40%;
+    margin: 0 5% 0 5%;
+}
+.pf a {
+    display: inline;
+    width: inherit;
+    height: auto;
+}
+.pf a img {
+    width: inherit;
+}
+.pf :hover {
+    opacity: 0.7;
+    filter: Alpha(opacity=50);  /* IE8 and earlier */
+}
+table {
+    margin: auto;
+}
+td {
+    padding: 10px;
+}
+.left-col{
+    width: 120px;
+}
+.right-col {
+    width: 800px;
+}
+th {
+    font-size: 1.3em;
+    border-bottom: solid 2px;
+    border-bottom-color: darkorange;
+}
+thead {
+    text-align: center;
+
+}
+td:last-child {
+    border-bottom: solid 2px;
+    border-bottom-color: darkorange;
+}
+.faculty {
+    letter-spacing: 2px;
+    font-size: 1.1em;
+}
+.school {
+    font-weight: bold;
+}
+#left, #right {
+    width: 33%;
+    height: 20%;
+    border: 2px solid black;
+    display: block;
+    position: absolute;
+}
+.wrapper {
+    width: 710px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.social {
+    width: 300px;
+}
+.social:hover {
+    opacity: 0.7;
+}
